@@ -6,8 +6,8 @@ This project aims to analse user activity and engagement in their user journey u
 ### Data Sources
 The data is taken from an SQL database consisting of three tables: 
 * __Front Interactions__ (1.6+ million records) includes visitor activity on the website by visitor and by session, from front page clickthroughs to various pages including checkout.
-* __Purchases__ (X records) focuses on user purchase activity including type of subscription (monthly, quarterly, annual) and the purchase price and date.
-* __Front Visitors__ (245 562 records) is a link between the other two tables by referencing user_id and visitor_id.
+* __Purchases__ (126 546 records) focuses on user purchase activity including type of subscription (monthly, quarterly, annual) and the purchase price and date.
+* __Front Visitors__ (244 670 records) is a link between the other two tables by referencing user_id and visitor_id.
  
 ### Tools
 
