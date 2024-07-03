@@ -19,8 +19,8 @@ The data is taken from an SQL database consisting of three tables:
 The main preparation neeeded to get the data ready for further processing included:
 * Checking for NULL values and removing records where necessary
 * Removing test users (i.e. users who paid $0 for a subscription) from the data
-* [Re-formatting website page names to use aliases to improve readability](pre-processing/url_to_alias.sql)
-* [Changing subscription type from code to text to aid readbility](pre-processing/reformat_purchase_type.sql)
+* [Re-formatting website page names to use aliases](pre-processing/url_to_alias.sql)
+* [Changing subscription type from code to text](pre-processing/reformat_purchase_type.sql)
 
 ### Data Analysis: User Journeys
 
