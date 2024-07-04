@@ -22,9 +22,10 @@ The main preparation neeeded to get the data ready for further processing includ
 * [Re-formatting website page names to use aliases](pre-processing/url_to_alias.sql)
 * [Changing subscription type from code to text](pre-processing/reformat_purchase_type.sql)
 
+
 ### Data Analysis: User Journeys
+The data were extracted using SQL queries to show the sequence of pages visited that led to a first-time subscrition purchase in Q1 2023 (January 1, 2023 to March 31, 2023). Some further formatting was needed after the SQL processing, and as this was text data it was done using python instead. The exported .csv file shows User ID, Session ID, Subscription Type, and User Journey.
 
-
-
+Some further formatting was needed after the 
 
 ### Data Analysis: Purchase Patterns
