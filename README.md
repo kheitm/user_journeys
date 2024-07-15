@@ -37,8 +37,8 @@ The data were extracted using [SQL queries](user_journey_analysis/user_journey_b
 
 Data insgights were visualized on Tableau as seen in the following examples:
 
-<img src="user_journey_analysis/Q1_Subscription_Types.png?raw=true" width="100" height="100"/>
+<img src="user_journey_analysis/Q1_Subscription_Types.png?raw=true" width="400" height="790"/>
 
-<img src="user_journey_analysis/Q1_Average_Length_of_Journey.png?raw=true" width="100" height="100"/>
+<img src="user_journey_analysis/Q1_Average_Length_of_Journey.png?raw=true" width="400" height="790"/>
 
 ### Data Analysis: Purchase Patterns
