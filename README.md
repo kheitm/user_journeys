@@ -25,7 +25,7 @@ The main preparation neeeded to get the data ready for further processing includ
 
 
 ### Data Analysis: User Journeys
-The data were extracted using [SQL queries](user_journey_analysis/user_journey_by_quarter.sql) on MySQLWorkbench to show the sequence of pages visited that led to a first-time subscrition purchase in Q1 2023 (January 1, 2023 to March 31, 2023). Some further [formatting](data_formatting/formatting.py) was needed after the SQL processing, and as this was text data it was done using Python instead. The exported .csv file shows User ID, Session ID, Subscription Type, Number of Sessions, Length of Journey, Number of Pages Visited, Pages Visited, and Journey.
+The data were extracted using [SQL queries](user_journey_analysis/user_journey_by_quarter.sql) on MySQLWorkbench to show the sequence of pages visited that led to a first-time subscrition purchase in Q1 2023 (January 1, 2023 to March 31, 2023). Some further [formatting](data_formatting/formatting.py) was needed after the SQL processing, and as this was text data it was done using Python instead. The exported .csv file shows User ID, Session ID, Subscription Type, Number of Sessions, Length of Journey, Number of Pages Visited, Pages Visited, and Journey. This file was also modified to create a file cfocusing on the 17 page types and visit frequency.
 
 
 <img src="src/user_journey_file.png?raw=true"/>
