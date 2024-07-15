@@ -35,10 +35,15 @@ The data were extracted using [SQL queries](user_journey_analysis/user_journey_b
 * User behaviour before subscription purchase showed: Average Number of Sessions is 6.26; Average Length of Journey is 43.6 page visits; and Average Number of different Pages visited was 3.3.
 * While function pages like Login were naturally the most visited pages on the User Journey, the highest visted content pages were: Courses, Career Track, Career Certificates. The least performing pages were: Success Stories, Instructors and the Blog. 
 
-Data insgights were visualized on Tableau as seen in the following examples:
+These data were visualized on Tableau as seen in the following examples:
 
 <img src="user_journey_analysis/Q1_Subscription_Types.png?raw=true" width="50%"/>
 
 <img src="user_journey_analysis/Q1_Average_Length_of_Journey.png?raw=true" width="50%"/>
 
-### Data Analysis: Purchase Patterns
+
+### Further Data Analysis
+These Q1 data insights are of course not menaingful unless compared to wider patterns of behaviour in the previous nad following quarters, to see if there is a pattern of journey length and number of sessions that relates to subscription type. There should also be an analysis of the pages viewed and if tehy relate to subscription purchase type so that recommendations could be made for review of contents and structure of less valuable pages.
+
+Finally, these data do not include the actual purchase values. These could be linked to the data using a new SQL table, so that further metrics could be dertemined such as: Annual Contract Value (ACV) and Annual Recurring Revenue (ARR)
+
