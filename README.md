@@ -25,13 +25,14 @@ The main preparation neeeded to get the data ready for further processing includ
 
 
 ### Data Analysis: User Journeys
-The data were extracted using [SQL queries](user_journey_analysis/user_journey_by_quarter.sql) on MySQLWorkbench to show the sequence of pages visited that led to a first-time subscrition purchase in Q1 2023 (January 1, 2023 to March 31, 2023). Some further [formatting](data_formatting/formatting.py) was needed after the SQL processing, and as this was text data it was done using Python instead. The exported .csv file shows User ID, Session ID, Subscription Type, Number of Sessions, Length of Journey, Number of Pages Visited, Pages Visited, and Journey. This file was also modified to create a file cfocusing on the 17 page types and visit frequency.
+The data were extracted using [SQL queries](user_journey_analysis/user_journey_by_quarter.sql) on MySQLWorkbench to show the sequence of pages visited that led to a first-time subscrition purchase in Q1 2023 (January 1, 2023 to March 31, 2023). Some further [formatting](data_formatting/formatting.py) was needed after the SQL processing, and as this was text data it was done using Python instead. The exported .csv file shows User ID, Session ID, Subscription Type, Number of Sessions, Length of Journey, Number of Pages Visited, Pages Visited, and Journey. This file was also modified to create a file focusing on the 17 page types and visit frequency.
 
 
 <img src="src/user_journey_file.png?raw=true"/>
 
 #### Insights
 
+* User behaviour before subscription purchase showed: Average Number of Sessions is 6.26; Average Length of Journey is 43.6 page visits; and Average Number of different Pages visited was 3.3.
 * While function pages like Login were naturally the most visited pages on the User Journey, the highest visted content pages were: Courses, Career Track, Career Certificates. The least performing pages were: Success Stories, Instructors and the Blog. 
 
 
