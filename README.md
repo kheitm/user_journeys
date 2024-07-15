@@ -30,9 +30,9 @@ The data were extracted using [SQL queries](user_journey_analysis/user_journey_b
 
 <img src="src/user_journey_file.png?raw=true"/>
 
+#### Insights
 
+* While function pages like Login were naturally the most visited pages on the User Journey, the highest visted content pages were: Courses, Career Track, Carrer Certificates. The least performing pages were: Success Stories, Instructors and the Blog. 
 
-
-Some further formatting was needed after the 
 
 ### Data Analysis: Purchase Patterns
